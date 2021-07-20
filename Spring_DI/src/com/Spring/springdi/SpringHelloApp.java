@@ -1,4 +1,4 @@
-package com.Spring.springioc;
+package com.Spring.springdi;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

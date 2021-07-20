@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="111986c0-a465-483f-8397-c8fd4f9931af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Spring_IOC/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/src/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/BaseBallCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/MyApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/SpringHelloApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/SpringHelloApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/src/com/Spring/springioc/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Spring/springdi/CricketCoachDetailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sport.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring_DI_setter/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring_DI_setter/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring_DI_setter/com/Spring/springdi/SpringHelloApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring_DI_setter/com/Spring/springdi/SpringHelloApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Spring/springdi/SpringHelloApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Spring/springdi/SpringHelloApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

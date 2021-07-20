@@ -5,19 +5,15 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define your beans here -->
-
-<!--    <bean id="myCoach"-->
-<!--          class="com.Spring.springioc.BaseBallCoach">-->
-<!--    </bean>-->
-
+    <!-- define the dependency -->
     <bean id="myFortuneService"
           class="com.Spring.springdi.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="com.Spring.springdi.BaseBallCoach">
-        <constructor-arg ref="myFortuneService">
-        </constructor-arg>
+          class="com.Spring.springdi.TrackCoach">
+        <!-- setup constructor injection -->
+        <constructor-arg ref="myFortuneService" />
     </bean>
 
 

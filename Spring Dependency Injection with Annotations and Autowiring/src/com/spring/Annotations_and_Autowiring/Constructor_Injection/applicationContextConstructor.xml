@@ -8,7 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <context:component-scan base-package="com.spring.Annotations_and_Autowiring" />
+    <context:component-scan base-package="com.spring.Annotations_and_Autowiring.Constructor_Injection" />
 
 
 </beans>

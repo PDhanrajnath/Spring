@@ -1,17 +1,17 @@
-package com.Spring.AnnotationsandAutowiring;
+package com.spring.Annotations_and_Autowiring.Setter_Injection;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class SpringHelloApp {
+public class SetterHelloApp {
 
     public static void main(String[] args){
 
         //load the spring configuration file
         ClassPathXmlApplicationContext context =
-                new ClassPathXmlApplicationContext("applicationContext.xml");
+                new ClassPathXmlApplicationContext("com/spring/Annotations_and_Autowiring/Setter_Injection/applicationContextSetter.xml");
 
         // retrieve from spring container
-        Coach theCoach = context.getBean("myCoach",Coach.class);
+        Coach theCoach = context.getBean("tennisCoach", Coach.class);
 
         //call methods on the bean
         System.out.println(theCoach.getDailyWorkout());

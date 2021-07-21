@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="111986c0-a465-483f-8397-c8fd4f9931af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/0/b/0bb20a11d150ba007d6626bcd0c6a978eb36bf5e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/6/8/68bc288dc6e8f5f7a3ef0c30746ee2f67fed35e3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/6/b/6b3637404a6c94a3f28448b56de3e9ddc503a9e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/8/d/8d7b8ebc09f376cdf830a732d687852e52344c93" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/b/9/b90a522acab9181109451923b857acbb95bee00f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/b/d/bd6d341b13732bf4c79a108004d3e67df034fba5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/c/1/c12c532ec7d9bb4d2f200db2bae2ff15ecb26532" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Bean_Scopes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/libraries/spring_aop_5_0_5_RELEASE_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/Spring_Java_Annotaions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/src/com/Spring/JavaAnnotations/AnnotationDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/src/com/Spring/JavaAnnotations/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/src/com/Spring/JavaAnnotations/TennisCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bean_LifeCycle/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Bean_LifeCycle/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

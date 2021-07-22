@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99cbd69c-9b90-4eca-b017-080af607634b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/java/com/Spring/springdemo/BaseBallCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/java/com/Spring/springdemo/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/java/com/Spring/springdemo/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/java/com/Spring/springdemo/SpringHelloApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/java/com/Spring/springdemo/SpringdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/java/com/Spring/springdemo/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../0-springdemo/src/test/java/com/Spring/springdemo/SpringdemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/.idea/libraries/spring_aop_5_0_5_RELEASE_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/Spring_DI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-aop-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-aop-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-aop-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-aspects-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-aspects-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-aspects-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-beans-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-beans-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-beans-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-indexer-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-indexer-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-indexer-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-support-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-support-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-context-support-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-core-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-core-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-core-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-expression-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-expression-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-expression-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-instrument-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-instrument-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-instrument-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jcl-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jcl-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jcl-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jdbc-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jdbc-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jdbc-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jms-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jms-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-jms-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-messaging-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-messaging-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-messaging-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-orm-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-orm-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-orm-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-oxm-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-oxm-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-oxm-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-test-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-test-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-test-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-tx-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-tx-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-tx-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-web-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-web-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-web-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-webflux-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-webflux-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-webflux-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-webmvc-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-webmvc-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-webmvc-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-websocket-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-websocket-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/lib/spring-websocket-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/out/production/Spring_DI/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/BaseBallCoach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/Coach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/FortuneService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/HappyFortuneService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/SpringHelloApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/TrackCoach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/src/com/Spring/springdi/BaseBallCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/src/com/Spring/springdi/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/src/com/Spring/springdi/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/src/com/Spring/springdi/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/src/com/Spring/springdi/SpringHelloApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Spring_DI_constructor/src/com/Spring/springdi/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/.idea/libraries/spring_aop_5_0_5_RELEASE_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/.idea/sonarlint/issuestore/6/b/6b1cc211b999f6f341ae879653ad204b7f20c796" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/Spring_DI_setter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-aop-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-aop-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-aop-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-aspects-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-aspects-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-aspects-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-beans-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-beans-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-beans-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-indexer-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-indexer-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-indexer-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-support-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-support-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-context-support-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-core-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-core-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-core-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-expression-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-expression-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-expression-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-instrument-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-instrument-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-instrument-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jcl-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jcl-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jcl-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jdbc-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jdbc-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jdbc-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jms-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jms-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-jms-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-messaging-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-messaging-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-messaging-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-orm-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-orm-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-orm-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-oxm-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-oxm-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-oxm-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-test-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-test-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-test-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-tx-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-tx-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-tx-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-web-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-web-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-web-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-webflux-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-webflux-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-webflux-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-webmvc-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-webmvc-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-webmvc-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-websocket-5.0.5.RELEASE-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-websocket-5.0.5.RELEASE-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/lib/spring-websocket-5.0.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/Coach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/CricketCoach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/CricketCoachDetailed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/FortuneService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/HappyFortuneService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/SpringHelloApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/TrackCoach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/out/production/Spring_DI_setter/sport.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/com/Spring/springdi/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/com/Spring/springdi/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/com/Spring/springdi/CricketCoachDetailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/com/Spring/springdi/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/com/Spring/springdi/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/com/Spring/springdi/SpringHelloApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/com/Spring/springdi/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Spring_DI_setter/src/sport.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bean_LifeCycle/.idea/sonarlint/issuestore/1/b/1ba84a6b5e5e86dddfbc569794b12e920a16f6c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bean_LifeCycle/.idea/sonarlint/issuestore/7/a/7a4fd558eb2abcf670846557f1f42c5702197cf2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bean_LifeCycle/.idea/sonarlint/issuestore/e/8/e8db185b7e667a8ae0ff21a4814d5b1bff4c7c13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bean_LifeCycle/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Bean_LifeCycle/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Dependency Injection with Annotations and Autowiring/.idea/sonarlint/issuestore/3/7/378f0d043c8a17e93237509613c05133928c2695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Dependency Injection with Annotations and Autowiring/.idea/sonarlint/issuestore/6/c/6cc9ae9d3da009c1a2298a01223ecf481ce3c5ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Dependency Injection with Annotations and Autowiring/.idea/sonarlint/issuestore/c/4/c45c3addc185a3374cbcd067b007e061a7f7e6a9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Dependency Injection with Annotations and Autowiring/.idea/sonarlint/issuestore/e/0/e082ff6d859af94886b055ae43010e7fcc5ce99b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Dependency Injection with Annotations and Autowiring/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Dependency Injection with Annotations and Autowiring/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bb20a11d150ba007d6626bcd0c6a978eb36bf5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d7b8ebc09f376cdf830a732d687852e52344c93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b90a522acab9181109451923b857acbb95bee00f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c12c532ec7d9bb4d2f200db2bae2ff15ecb26532" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/1/c/1c9f20cf64e2aa88bdfe69203bc3497b543f1295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/4/d/4d3cb52588520b9287de9386dad771f58141c636" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/5/a/5ae76b25c8cb355d52b79c29f662000712d44e67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/6/1/61eef5f207cd68795385d45d7c9558ccebdfa882" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/9/1/91dba62d72e8971dbd720b31af3ae426191b2be2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/9/6/960d2f5c23bdbf5c00e6507a6a01ed6bb3562f8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/c/9/c95892e102ea526eeec614d23dc61485897dffe9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/c/f/cf3a5e94189f97c5e9b221bd9d0f6c4149fae31c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/out/production/Spring_Beans_Scope_with_Annotations/com/Spring/Bean_LifeCyle_Methods_and_Annotations/SadFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/out/production/Spring_Beans_Scope_with_Annotations/com/Spring/Bean_LifeCyle_Methods_and_Annotations/SadFortuneService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/src/com/Spring/Bean_LifeCyle_Methods_and_Annotations/SadFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Beans_Scope_with_Annotations/src/com/Spring/Bean_LifeCyle_Methods_and_Annotations/SadFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/libraries/spring_aop_5_0_5_RELEASE_javadoc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/sonarlint/issuestore/3/f/3f968595e752373c2248e1e2a2740e989af890ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/sonarlint/issuestore/b/7/b78dbb0e152ef554060afe6f41f1373588de0b2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/Spring_DI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-aop-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-aop-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-aspects-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-aspects-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-aspects-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-beans-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-beans-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-indexer-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-indexer-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-indexer-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-support-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-support-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-core-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-core-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-expression-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-expression-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-instrument-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-instrument-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-instrument-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jcl-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jcl-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jdbc-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jdbc-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jms-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jms-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-jms-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-messaging-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-messaging-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-orm-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-orm-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-orm-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-oxm-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-oxm-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-oxm-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-test-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-test-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-tx-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-tx-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-web-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-web-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-webflux-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-webflux-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-webflux-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-webmvc-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-webmvc-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-websocket-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-websocket-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/lib/spring-websocket-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/out/production/Spring_DI/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/BaseBallCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/Coach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/FortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/HappyFortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/SpringHelloApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/out/production/Spring_DI/com/Spring/springdi/TrackCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/src/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/src/com/Spring/springdi/BaseBallCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/src/com/Spring/springdi/Coach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/src/com/Spring/springdi/FortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/src/com/Spring/springdi/HappyFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/src/com/Spring/springdi/SpringHelloApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_constructor/src/com/Spring/springdi/TrackCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/libraries/spring_aop_5_0_5_RELEASE_javadoc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/3/5/35700fa1bf233f5ff3aa3d43bf666220edb0e443" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/3/f/3f968595e752373c2248e1e2a2740e989af890ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/4/f/4fbd01d268a741d82fbe0a1f6457fa70be9471dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/5/a/5a60332807a0860416fc23c997e29b8acfe786a8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/6/7/67c19af417f9ff720500480710ce864e05da4c45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/6/b/6b1cc211b999f6f341ae879653ad204b7f20c796" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/a/2/a2aa19cd02a0ef7293c5f01a75371ec79714a32d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/b/7/b78dbb0e152ef554060afe6f41f1373588de0b2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/c/e/cec9352f48053368035b4634c8f196da3a1e47d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_DI_setter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/Spring_DI_setter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-aop-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-aop-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-aop-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-aspects-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-aspects-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-aspects-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-beans-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-beans-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-beans-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-indexer-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-indexer-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-indexer-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-support-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-support-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-context-support-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-core-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-core-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-core-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-expression-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-expression-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-expression-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-instrument-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-instrument-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-instrument-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jcl-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jcl-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jcl-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jdbc-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jdbc-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jdbc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jms-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jms-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-jms-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-messaging-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-messaging-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-messaging-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-orm-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-orm-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-orm-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-oxm-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-oxm-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-oxm-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-test-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-test-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-test-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-tx-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-tx-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-tx-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-web-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-web-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-web-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-webflux-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-webflux-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-webflux-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-webmvc-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-webmvc-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-webmvc-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-websocket-5.0.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-websocket-5.0.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/lib/spring-websocket-5.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/Coach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/CricketCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/CricketCoachDetailed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/FortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/HappyFortuneService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/com/Spring/springdi/SpringHelloApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/out/production/Spring_DI_setter/sport.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/com/Spring/springdi/Coach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/com/Spring/springdi/CricketCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/com/Spring/springdi/CricketCoachDetailed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/com/Spring/springdi/FortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/com/Spring/springdi/HappyFortuneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/com/Spring/springdi/SpringHelloApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/com/Spring/springdi/TrackCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_DI_setter/src/sport.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/BaseBallCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/BaseBallCoach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/MyApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/MyApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/SpringHelloApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/SpringHelloApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/TrackCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/out/production/Spring_IOC/com/Spring/springioc/TrackCoach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_IOC/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_IOC/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/3/5/35e0ac88c491bdfbd3e76231177fc81a702b065c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/4/5/458f1a68149ef7c7687c38af5a1a802c238c94d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/7/6/767c64ce3be4136ca2dcdb6ab0c4f11636964f9a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/7/a/7aad6be79ec95cb2b32a22bd7b8041d6196b5c4d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/7/d/7d0fdf08f614e456ece01692f8242a709295888e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/c/e/cec9352f48053368035b4634c8f196da3a1e47d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/e/3/e37cc2a00f6423cd680630aba5057bb31ed6d351" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/out/production/Spring_Java_Annotaions/com/Spring/JavaAnnotaions_DefaultComponent/TrackCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/out/production/Spring_Java_Annotaions/com/Spring/JavaAnnotaions_DefaultComponent/TrackCoach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Java_Annotaions/src/com/Spring/JavaAnnotaions_DefaultComponent/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Java_Annotaions/src/com/Spring/JavaAnnotaions_DefaultComponent/TrackCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/java/com/Spring/springdemo/BaseBallCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/java/com/Spring/springdemo/Coach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/java/com/Spring/springdemo/MyApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/java/com/Spring/springdemo/SpringHelloApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/java/com/Spring/springdemo/SpringdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/java/com/Spring/springdemo/TrackCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springdemo/src/test/java/com/Spring/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1vaktsGTyEv2VFwmPp1ykhJ1ftq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bean_LifeCycle" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/spring/springbeanscopes" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.springbeanscopes.BeanScopeDemoApp" />
+      <module name="Spring_Bean_Scopes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.springbeanscopes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BeanScopeDemoApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99cbd69c-9b90-4eca-b017-080af607634b" name="Default Changelist" comment="" />
+      <created>1626807807036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626807807036</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,2 @@
+com.spring.controllerlevelRequestMapping.HomeController=org.springframework.stereotype.Component
+com.spring.controllerlevelRequestMapping.SillyController=org.springframework.stereotype.Component

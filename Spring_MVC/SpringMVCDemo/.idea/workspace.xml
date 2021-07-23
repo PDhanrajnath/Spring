@@ -283,9 +283,7 @@
       <option name="adminPort" value="8007" />
       <option name="contextPath" value="/untitled" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
+      <option name="envOptions" />
       <option name="passParentEnvironmentVariables" value="true" />
       <option name="port" value="8082" />
       <option name="tomcatInfo">

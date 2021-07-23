@@ -1,1 +1,1 @@
-mvc.HomeController=org.springframework.stereotype.Component
+com.spring.mvcdemo.HomeController=org.springframework.stereotype.Component

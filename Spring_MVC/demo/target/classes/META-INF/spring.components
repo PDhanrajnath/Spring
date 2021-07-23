@@ -1,4 +1,0 @@
-#
-#Thu Jul 22 18:49:57 IST 2021
-com.SpringMVC.demo.config.DemoAppConfig=org.springframework.stereotype.Component
-com.SpringMVC.demo.mvc.HomeController=org.springframework.stereotype.Component

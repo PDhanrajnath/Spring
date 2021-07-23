@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+//defining scope as prototype
 @Scope("prototype")
 public class TennisCoach implements Coach {
 

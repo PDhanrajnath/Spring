@@ -6,7 +6,7 @@ public class BeanScopeDemoApp {
     public static void main(String[] args){
 
         //load the spring config file
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanLifeCycle-applicationContext.xml");
 
         //retrieve bean from spring container
         Coach theCoach = context.getBean("myCoach",Coach.class);
@@ -15,7 +15,10 @@ public class BeanScopeDemoApp {
 
         //check if they are same beans
         boolean result= (theCoach == alphaCoach);
-        System.out.println(result);
+        if(result)
+            System.out.println("Same Objects");
+        else
+            System.out.println("Different Objects");
 
         System.out.println(theCoach);
         System.out.println(alphaCoach);

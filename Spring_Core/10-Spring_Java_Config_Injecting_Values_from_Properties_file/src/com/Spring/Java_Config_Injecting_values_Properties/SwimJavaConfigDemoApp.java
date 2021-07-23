@@ -6,6 +6,7 @@ public class SwimJavaConfigDemoApp {
 
 	public static void main(String[] args) {
 
+
 		// read spring config java class
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(SportConfig.class);

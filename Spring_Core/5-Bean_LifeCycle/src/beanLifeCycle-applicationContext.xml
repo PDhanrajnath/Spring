@@ -19,8 +19,8 @@
     <!-- defining scope="singleton/prototype" -->
     <bean id="myCoach"
           class="com.spring.BeanLifeCycle.TrackCoach"
-    init-method="doMyStartupStuff"
-    destroy-method="doMyCleanupStuff">
+          init-method="doMyStartupStuff"
+          destroy-method="doMyCleanupStuff">
           <constructor-arg ref="myFortuneService"/>
     </bean>
 

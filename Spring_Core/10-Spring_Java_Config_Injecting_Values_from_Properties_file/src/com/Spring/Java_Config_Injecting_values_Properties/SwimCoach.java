@@ -1,7 +1,11 @@
 package com.Spring.Java_Config_Injecting_values_Properties;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
+@Configuration
+@PropertySource("classpath:sport.properties")
 public class SwimCoach implements Coach {
 
 	private FortuneService fortuneService;

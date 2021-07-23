@@ -18,7 +18,8 @@
     </bean>
 
     <bean id="myCricketCoachDetailed"
-          class="com.Spring.springdi.CricketCoachDetailed">
+          class="com.Spring.springdi.CricketCoachDetailed"
+          scope="prototype">
 
         <!-- setup setter injection -->
         <property name = "fortuneService" ref = "myFortuneService" />

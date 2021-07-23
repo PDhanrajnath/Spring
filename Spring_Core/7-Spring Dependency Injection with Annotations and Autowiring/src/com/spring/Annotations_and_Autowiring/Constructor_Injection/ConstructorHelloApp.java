@@ -11,13 +11,16 @@ public class ConstructorHelloApp {
                 new ClassPathXmlApplicationContext("com/spring/Annotations_and_Autowiring/Constructor_Injection/applicationContextConstructor.xml");
 
         // retrieve from spring container
+//        Coach anotherCoach = context.getBean("trackCoach",Coach.class);
         Coach theCoach = context.getBean("tennisCoach",Coach.class);
 
         //call methods on the bean
         System.out.println(theCoach.getDailyWorkout());
+//        System.out.println(anotherCoach.getDailyWorkout());
 
         //let's call out method for fortunes
         System.out.println(theCoach.getDailyFortune());
+//        System.out.println(anotherCoach.getDailyFortune());
 
         //close the context
         context.close();

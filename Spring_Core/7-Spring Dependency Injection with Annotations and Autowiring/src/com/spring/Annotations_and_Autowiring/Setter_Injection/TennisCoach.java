@@ -17,8 +17,9 @@ public class TennisCoach implements Coach {
 //        this.fortuneService = fortuneService;
 //    }
 
-    //setter method for dependency injection
+
     @Autowired
+    //setter method for dependency injection
     public void setFortuneService(FortuneService fortuneService) {
         System.out.println(">> TennisCoach: inside Setter method");
         this.fortuneService = fortuneService;

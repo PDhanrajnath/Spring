@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMVCDemo" />
         <module name="untitled" />
+        <module name="0-SpringMVCDemo" />
       </profile>
     </annotationProcessing>
   </component>

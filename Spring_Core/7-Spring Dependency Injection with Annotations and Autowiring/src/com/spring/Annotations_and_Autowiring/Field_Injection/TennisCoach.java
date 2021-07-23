@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
 
     @Autowired
+    //field is Autowired
     private FortuneService fortuneService;
+
     //define a default constructor
     public TennisCoach(){
         System.out.println(">> TennisCoach: inside default constructor");

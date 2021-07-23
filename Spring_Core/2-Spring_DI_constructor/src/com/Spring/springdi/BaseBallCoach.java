@@ -7,8 +7,8 @@ public class BaseBallCoach implements Coach {
     private FortuneService fortuneService;
 
     // define a constructor for dependency injection
-    public BaseBallCoach(FortuneService thefortuneservice){
-        fortuneService=thefortuneservice;
+    public BaseBallCoach(FortuneService fortuneservice){
+        this.fortuneService=fortuneservice;
     }
     @Override
     public String getDailyWorkout() {

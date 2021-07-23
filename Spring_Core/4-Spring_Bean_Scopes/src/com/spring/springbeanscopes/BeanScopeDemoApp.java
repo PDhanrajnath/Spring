@@ -15,8 +15,10 @@ public class BeanScopeDemoApp {
 
         //check if they are same beans
         boolean result= (theCoach == alphaCoach);
-        System.out.println(result);
-
+        if(!result)
+            System.out.println("Objects are not equal!");
+        else
+            System.out.println("Objects are equal");
         System.out.println(theCoach);
         System.out.println(alphaCoach);
 

@@ -16,5 +16,11 @@
         <constructor-arg ref="myFortuneService" />
     </bean>
 
+    <bean id="baseCoach"
+          class="com.Spring.springdi.BaseBallCoach">
+        <constructor-arg ref="myFortuneService" />
+    </bean>
+
+
 
 </beans>

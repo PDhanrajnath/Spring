@@ -5,8 +5,18 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd" >
 
     <!-- Define your beans here -->
-    <bean id="myCoach"
-          class="com.Spring.springioc.TrackCoach">
+    <bean id="trackCoach"
+          class="com.Spring.springioc.TrackCoach"
+            scope="prototype">
     </bean>
+
+    <bean id="baseBallCoach"
+          class="com.Spring.springioc.BaseBallCoach"
+          scope="singleton">
+    </bean>
+
+    <bean id="demoBean"
+          class="com.Spring.springioc.CricketCoach"
+          scope="prototype" />
 
 </beans>

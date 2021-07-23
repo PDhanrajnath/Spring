@@ -8,7 +8,9 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
 
 	@Autowired
+	//field is Autowired
 	@Qualifier("randomFortuneService")
+	//RandomFortuneService in injecting
 	private FortuneService fortuneService;
 	
 	// define a default constructor
@@ -41,5 +43,6 @@ public class TennisCoach implements Coach {
 	public String getDailyFortune() {
 		return fortuneService.getFortune();
 	}
+
 
 }

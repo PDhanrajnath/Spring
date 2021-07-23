@@ -20,6 +20,12 @@ public class AnnotationBeanScopeDemoApp {
 		
 		// print out the results
 		System.out.println("\nPointing to the same object: " + result);
+		if(result){
+			System.out.println("Same Objects!");
+		}
+		else{
+			System.out.println("Different Object!");
+		}
 		
 		System.out.println("\nMemory location for theCoach: " + theCoach);
 

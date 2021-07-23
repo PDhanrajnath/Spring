@@ -7,7 +7,7 @@ public class DefaultAnnotationDemoApp {
 
         //read spring config file
         ClassPathXmlApplicationContext context=
-            new ClassPathXmlApplicationContext("applicationContext.xml");
+            new ClassPathXmlApplicationContext("com/Spring/JavaAnnotaions_DefaultComponent/applicationContext.xml");
         //get the bean from spring container
         Coach1 theCoach= context.getBean("trackCoach",Coach1.class);
 

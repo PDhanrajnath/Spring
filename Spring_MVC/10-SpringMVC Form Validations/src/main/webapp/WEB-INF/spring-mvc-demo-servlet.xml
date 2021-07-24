@@ -23,6 +23,6 @@
 <!--	//load the custom message resources-->
 	<bean id="messageSource"
 		  class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="src/main/resources/messages" />
+		<property name="basenames" value="src/main/resources/messages" />
 	</bean>
 </beans>

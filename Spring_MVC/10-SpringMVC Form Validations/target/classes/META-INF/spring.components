@@ -1,0 +1,4 @@
+com.springmvc.form.validations.CustomerController=org.springframework.stereotype.Component
+com.springmvc.form.validations.HelloWorldController=org.springframework.stereotype.Component
+com.springmvc.form.validations.HomeController=org.springframework.stereotype.Component
+com.springmvc.form.validations.StudentController=org.springframework.stereotype.Component

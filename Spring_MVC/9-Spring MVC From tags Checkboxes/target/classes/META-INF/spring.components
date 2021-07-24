@@ -1,0 +1,3 @@
+com.spring.mvctagformscheckboxes.HelloWorldController=org.springframework.stereotype.Component
+com.spring.mvctagformscheckboxes.HomeController=org.springframework.stereotype.Component
+com.spring.mvctagformscheckboxes.StudentController=org.springframework.stereotype.Component

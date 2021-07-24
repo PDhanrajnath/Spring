@@ -1,0 +1,3 @@
+com.spring.mvcformtags.mvc.HelloWorldController=org.springframework.stereotype.Component
+com.spring.mvcformtags.mvc.HomeController=org.springframework.stereotype.Component
+com.spring.mvcformtags.mvc.StudentController=org.springframework.stereotype.Component

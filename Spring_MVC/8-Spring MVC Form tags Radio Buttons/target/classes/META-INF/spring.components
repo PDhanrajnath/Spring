@@ -1,0 +1,3 @@
+com.spring.mvcformtagsradiobuttons.HelloWorldController=org.springframework.stereotype.Component
+com.spring.mvcformtagsradiobuttons.HomeController=org.springframework.stereotype.Component
+com.spring.mvcformtagsradiobuttons.StudentController=org.springframework.stereotype.Component

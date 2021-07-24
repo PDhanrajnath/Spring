@@ -1,0 +1,3 @@
+com.spring.mvcformtags.dropdownlist.HelloWorldController=org.springframework.stereotype.Component
+com.spring.mvcformtags.dropdownlist.HomeController=org.springframework.stereotype.Component
+com.spring.mvcformtags.dropdownlist.StudentController=org.springframework.stereotype.Component

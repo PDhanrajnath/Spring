@@ -24,7 +24,7 @@
 		<form:errors path="lastName" cssClass="error" />
 		
 		<br><br>
-		No. of passes : <form:input  path="freePasses" />
+		No. of passes : <form:input type="number" path="freePasses" />
 		<form:errors path="freePasses" cssClass="error" />
 
 		<br><br>

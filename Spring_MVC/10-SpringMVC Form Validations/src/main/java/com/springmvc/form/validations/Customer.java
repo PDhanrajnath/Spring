@@ -49,6 +49,7 @@ public class Customer {
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
+
 }
 
 

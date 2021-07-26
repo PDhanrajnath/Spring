@@ -3,17 +3,3 @@
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 x
 Hsrc/main/java/com/spring/mvctagformscheckboxes/HelloWorldController.java,c/9/c94fe0a74c2d956ab0539222641946859850ac29
-u
-Esrc/main/java/com/spring/mvctagformscheckboxes/StudentController.java,5/e/5e3cb572a69221bc92fc9a7c6ad0bdac080adef6
-Z
-*src/main/webapp/WEB-INF/view/main-menu.jsp,3/8/38ad2c32d711f144bf7f7b487adde6857db0e072
-r
-Bsrc/main/java/com/spring/mvctagformscheckboxes/HomeController.java,4/f/4fc405cd40213f575443b9174d396e3950263ea7
-]
--src/main/webapp/WEB-INF/view/student-form.jsp,0/e/0eb670f9b16e23f0d81306f45e7c9c981a4e630a
-e
-5src/main/webapp/WEB-INF/view/student-confirmation.jsp,4/1/416202241f58142112a8f9d584ceabd8fdc536a0
-k
-;src/main/java/com/spring/mvctagformscheckboxes/Student.java,a/c/ac7b0969cc1c6327e62d8f4138a33b31bbdf3b3e
-c
-3src/main/webapp/WEB-INF/spring-mvc-demo-servlet.xml,8/e/8e8cc9023d855b1b0dc9094aa3ff6015a19929de

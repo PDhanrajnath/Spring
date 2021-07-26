@@ -20,5 +20,8 @@ public class jdbc {
             e.printStackTrace();
             System.out.println(e);
         }
+        finally {
+            System.out.println("Good to go...!");
+        }
     }
 }

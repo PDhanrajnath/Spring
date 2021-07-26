@@ -7,8 +7,6 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private String favLang;
-
-
 	private String country;
 	
 	private LinkedHashMap<String, String> countryOptions;

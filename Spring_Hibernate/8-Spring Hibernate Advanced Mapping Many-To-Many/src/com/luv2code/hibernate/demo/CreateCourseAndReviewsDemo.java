@@ -1,13 +1,9 @@
 package com.luv2code.hibernate.demo;
 
+import com.luv2code.hibernate.demo.entity.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import com.luv2code.hibernate.demo.entity.Course;
-import com.luv2code.hibernate.demo.entity.Instructor;
-import com.luv2code.hibernate.demo.entity.InstructorDetail;
-import com.luv2code.hibernate.demo.entity.Review;
 
 public class CreateCourseAndReviewsDemo {
 
@@ -20,6 +16,7 @@ public class CreateCourseAndReviewsDemo {
 								.addAnnotatedClass(InstructorDetail.class)
 								.addAnnotatedClass(Course.class)
 								.addAnnotatedClass(Review.class)
+				                 .addAnnotatedClass(Student.class)
 								.buildSessionFactory();
 		
 		// create session

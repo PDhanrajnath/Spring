@@ -56,6 +56,7 @@ public class Student {
 		this.email = email;
 	}
 
+
 	public List<Course> getCourses() {
 		return courses;
 	}

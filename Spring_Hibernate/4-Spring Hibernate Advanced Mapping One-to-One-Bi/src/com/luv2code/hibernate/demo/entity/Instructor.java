@@ -45,6 +45,7 @@ public class Instructor {
 	private String email;
 	
 	@OneToOne(cascade=CascadeType.ALL)
+	//FetchType --> EAGER (By Default)
 	@JoinColumn(name="instructor_detail_id")
 	private InstructorDetail instructorDetail;
 	

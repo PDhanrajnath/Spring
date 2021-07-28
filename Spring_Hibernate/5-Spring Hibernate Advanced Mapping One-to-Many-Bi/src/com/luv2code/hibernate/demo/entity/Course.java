@@ -37,6 +37,7 @@ public class Course {
 	
 	@ManyToOne(cascade= {CascadeType.PERSIST, CascadeType.MERGE,
 						 CascadeType.DETACH, CascadeType.REFRESH})
+	//FetchType --> EAGER (By Default)
 	@JoinColumn(name="instructor_id")
 	private Instructor instructor;
 	

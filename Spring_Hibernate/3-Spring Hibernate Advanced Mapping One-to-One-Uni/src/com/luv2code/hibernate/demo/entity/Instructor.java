@@ -45,6 +45,7 @@ public class Instructor {
 
 	//Cascade operations that performs same operations when done on this class
 	@OneToOne(cascade=CascadeType.ALL)
+	//FetchType --> EAGER (BY Default)
 	@JoinColumn(name="instructor_detail_id")
 	private InstructorDetail instructorDetail;
 

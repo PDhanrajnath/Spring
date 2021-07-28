@@ -9,3 +9,7 @@ l
 <src/com/luv2code/hibernate/demo/entity/InstructorDetail.java,9/e/9ee74fbed179c78f4f71bbd6444dd0778c56735c
 b
 2src/com/luv2code/hibernate/demo/FetchJoinDemo.java,6/4/649cee250c763c6c8091446b7bb9aaca380f4a6a
+E
+src/hibernate.cfg.xml,5/2/524fbabb9c34b348becff5425aeeaced8e15058f
+S
+#src/com/luv2code/jdbc/TestJdbc.java,c/9/c947120ff7ce8aba0ea39f3c22997ba0351accf5

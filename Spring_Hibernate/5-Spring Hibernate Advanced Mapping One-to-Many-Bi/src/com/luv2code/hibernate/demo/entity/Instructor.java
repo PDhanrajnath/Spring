@@ -1,5 +1,8 @@
 package com.luv2code.hibernate.demo.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +18,8 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
+@Getter
+@Setter
 @Table(name="instructor")
 public class Instructor {
 
@@ -27,8 +32,7 @@ public class Instructor {
 	// ** set up mapping to InstructorDetail entity
 	
 	// create constructors
-	
-	// generate getter/setter methods
+
 	
 	// generate toString() method
 
@@ -66,6 +70,29 @@ public class Instructor {
 		this.email = email;
 	}
 
+
+
+	public InstructorDetail getInstructorDetail() {
+		return instructorDetail;
+	}
+
+	public void setInstructorDetail(InstructorDetail instructorDetail) {
+		this.instructorDetail = instructorDetail;
+	}
+
+	@Override
+	public String toString() {
+		return "Instructor [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", instructorDetail=" + instructorDetail + "]";
+	}
+
+	public List<Course> getCourses() {
+		return courses;
+	}
+
+	public void setCourses(List<Course> courses) {
+		this.courses = courses;
+	}
 	
 	// add convenience methods for bi-directional relationship
 	

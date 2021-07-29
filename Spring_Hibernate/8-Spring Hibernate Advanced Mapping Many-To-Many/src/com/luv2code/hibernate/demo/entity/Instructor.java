@@ -31,9 +31,6 @@ public class Instructor {
 	// ** set up mapping to InstructorDetail entity
 	
 	// create constructors
-	
-	// generate toString() method
-
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")

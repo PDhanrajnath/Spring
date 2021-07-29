@@ -44,7 +44,6 @@ public class Student {
 			inverseJoinColumns=@JoinColumn(name="course_id")
 			)	
 	private List<Course> courses;
-
 	
 	public Student() {
 		

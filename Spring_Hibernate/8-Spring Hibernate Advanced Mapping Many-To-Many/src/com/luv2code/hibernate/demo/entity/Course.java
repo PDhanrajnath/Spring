@@ -58,8 +58,7 @@ public class Course {
 			inverseJoinColumns=@JoinColumn(name="student_id")
 			)
 	private List<Student> students;
-	
-	
+
 	public Course() {
 		
 	}
@@ -67,7 +66,6 @@ public class Course {
 	public Course(String title) {
 		this.title = title;
 	}
-
 
 	public Instructor getInstructor() {
 		return instructor;

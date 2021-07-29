@@ -28,8 +28,6 @@ public class Course {
 	
 	// define constructors
 
-	// define tostring
-	
 	// annotate fields
 	
 	@Id

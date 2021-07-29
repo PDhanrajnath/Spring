@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3b27aa5-f8b4-4cdb-9206-de583e480323" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7c09a427392ac9143678c7fa36f401b8d63cf1e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc9c6b75ddab1f8fa416b65af59f34f6bb23cfb4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce480351c3e81734ef6624a0ce0e793d57a77511" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/testdb/TestDbServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/testdb/TestDbServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Hibernate/8-Spring Hibernate Advanced Mapping Many-To-Many/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Hibernate/8-Spring Hibernate Advanced Mapping Many-To-Many/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-    </list>
+    <list default="true" id="d3b27aa5-f8b4-4cdb-9206-de583e480323" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

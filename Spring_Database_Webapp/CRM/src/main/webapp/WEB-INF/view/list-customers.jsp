@@ -19,6 +19,10 @@
 </head>
 
 <body>
+	<div id="wrapper">
+			<marquee>CRM - Customer Relationship Manager</marquee>
+	</div>
+
 
 	<div id="wrapper">
 		<div id="header">
@@ -29,12 +33,13 @@
 	<div id="container">
 
 		<div id="content">
+		<h5> Click the button to create a new Customer! </h5>
 		    <input type="button" value="Add Customer"
 		           onclick="window.location.href='showFormForAdd'; return false;"
 		            class="add-button"/>
 
 			<!--  add our html table here -->
-
+            <h4> List of Customers </h4>
 			<table>
 				<tr>
 					<th>First Name</th>

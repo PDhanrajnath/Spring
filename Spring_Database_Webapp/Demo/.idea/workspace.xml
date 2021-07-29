@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3b27aa5-f8b4-4cdb-9206-de583e480323" name="Changes" comment="" />
+    <list default="true" id="d3b27aa5-f8b4-4cdb-9206-de583e480323" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/testdb/TestDbServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/testdb/TestDbServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -17,8 +17,6 @@ public class Review {
 	// define fields
 	
 	// define constructors
-
-	// define tostring
 	
 	// annotate fields
 	
@@ -33,7 +31,6 @@ public class Review {
 	public Review() {
 		
 	}
-
 	public Review(String comment) {
 		this.comment = comment;
 	}

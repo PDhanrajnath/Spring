@@ -15,13 +15,3 @@ j
 :src/com/luv2code/hibernate/demo/DeleteMaryStudentDemo.java,d/b/db4cc4b65b87427fb27efe89961554325af6c7d5
 k
 ;src/com/luv2code/hibernate/demo/DeletePacmanCourseDemo.java,6/2/62cda1394eaa6f4a59b61d699334364566d8f83d
-c
-3src/com/luv2code/hibernate/demo/entity/Student.java,7/2/722adf73a3380f87526a812ea7a806e637f89be0
-f
-6src/com/luv2code/hibernate/demo/entity/Instructor.java,f/f/ffe5b73691f40f7d1d570abbce0d3473733c525a
-l
-<src/com/luv2code/hibernate/demo/entity/InstructorDetail.java,9/e/9ee74fbed179c78f4f71bbd6444dd0778c56735c
-b
-2src/com/luv2code/hibernate/demo/entity/Review.java,a/5/a5e45b8c14c333056acf2a968e4df29be4de044a
-b
-2src/com/luv2code/hibernate/demo/entity/Course.java,3/f/3ff86e1d4d76f3bf954f13678a8dc145b8edbb9b

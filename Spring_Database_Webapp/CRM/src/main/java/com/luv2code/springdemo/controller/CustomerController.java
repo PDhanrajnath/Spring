@@ -6,12 +6,16 @@ import com.luv2code.springdemo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import com.luv2code.springdemo.dao.CustomerDAO;
 import com.luv2code.springdemo.entity.Customer;
 
+import javax.validation.Valid;
+
 @Controller
+//@RequestMapping handles all of the HTTP methods
 @RequestMapping("/customer")
 public class CustomerController {
 
@@ -19,6 +23,7 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 
+	//requests data from given resource
 	@GetMapping("/list")
 	public String listCustomers(Model theModel) {
 		
@@ -33,7 +38,7 @@ public class CustomerController {
 
 
 	@GetMapping("/showFormForAdd")
-	public String shoeFormForAdd(Model theModel){
+	public String showFormForAdd(Model theModel){
 		//create model attribute to bind form data
 		Customer theCustomer = new Customer();
 
@@ -42,13 +47,18 @@ public class CustomerController {
 		return "customer-form";
 	}
 
+	//submit data to given resource
 	@PostMapping("/saveCustomer")
-	public String saveCustomer(@ModelAttribute("customer") Customer theCustomer){
+	public String saveCustomer(@Valid @ModelAttribute("customer") Customer theCustomer, BindingResult theBindingResult){
 		//save the customer using our service
-		customerService.saveCustomer(theCustomer);
+		if (theBindingResult.hasErrors()) {
+			return "customer-form";
+		}
+		else {
+			customerService.saveCustomer(theCustomer);
+		}
 
-
-		 return "redirect:/customer/list";
+		return "redirect:/customer/list";
 	}
 
 	@GetMapping("/showFormForUpdate")

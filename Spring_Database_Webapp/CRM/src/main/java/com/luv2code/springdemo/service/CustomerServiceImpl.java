@@ -8,34 +8,35 @@ import org.springframework.transaction.annotation.Transactional;
 import com.luv2code.springdemo.dao.CustomerDAO;
 import com.luv2code.springdemo.entity.Customer;
 
+//intermediate layer for custom business logic
+//service layer b/w customercontroller class and customerDAO
 @Service
+//@Transactional will automatically begin & end transaction for hibernate code/query
+@Transactional
 public class CustomerServiceImpl implements CustomerService {
 
 	// need to inject customer dao
 	@Autowired
 	private CustomerDAO customerDAO;
 
-	@Transactional
 	public List<Customer> getCustomers() {
 		return customerDAO.getCustomers();
 	}
 
 	@Override
-	@Transactional
+
 	public Customer getCustomer(int theId) {
 		return customerDAO.getCustomer(theId);
 	}
 
 	@Override
-	@Transactional
-	public void saveCustomer(Customer theCustomer) {
+	public void saveCustomer(Customer theCustomer){
 
 		//call the data source through this service!
 		customerDAO.saveCustomer(theCustomer);
 	}
 
 	@Override
-	@Transactional
 	public void deleteCustomer(int theId) {
 		customerDAO.deleteCustomer(theId);
 

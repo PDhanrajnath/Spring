@@ -1,19 +1,24 @@
 package com.luv2code.springdemo.dao;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.List;
 
-import com.luv2code.springdemo.service.CustomerService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.luv2code.springdemo.entity.Customer;
-
+//CRUD operations
+//java bean will scan @Respository annotation for Data Access Object implementation
 @Repository
 public class CustomerDAOImpl implements CustomerDAO {
+
+	Logger logger
+			= Logger.getLogger(
+			CustomerDAOImpl.class.getName());
 
 	// need to inject the session factory
 	@Autowired
@@ -37,13 +42,32 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@Override
-	public void saveCustomer(Customer theCustomer) {
-
+	public void saveCustomer(Customer theCustomer){
 		//get current hibernate session
 		Session currentSession = sessionFactory.getCurrentSession();
 
-		//save the Customer !!
-		currentSession.saveOrUpdate(theCustomer);
+//		currentSession.createQuery("from Customer c where c.firstName="+ theCustomer.getFirstName()).executeUpdate();
+
+		Query<Customer> query =
+				currentSession.createQuery("select c from Customer c " +
+								"where c.firstName =:theCustomerFirstName and " +
+								"c.lastName=:theCustomerLastName and " +
+								"c.email=:theCustomerEmail",
+						        Customer.class);
+
+		// set parameter on query
+		query.setParameter("theCustomerFirstName", theCustomer.getFirstName());
+		query.setParameter("theCustomerLastName", theCustomer.getLastName());
+		query.setParameter("theCustomerEmail", theCustomer.getEmail());
+
+		try {
+			// execute query and get instructor
+			Customer temp = query.getSingleResult();
+		}
+		catch (Exception exe){
+			logger.log(Level.INFO,"Already exists!!");
+			currentSession.saveOrUpdate(theCustomer);
+		}
 	}
 
 	@Override

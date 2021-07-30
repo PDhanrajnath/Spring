@@ -1,0 +1,12 @@
+
+E
+java:S3740]"/Provide the parametrized type for this generic.(˜şáü
+S
+java:S1854A"8Remove this useless assignment to local variable "temp".(ç×Àïøÿÿÿÿ
+Q	java:S1251"<This block of commented-out lines of code should be removed.(¹Ü 
+D
+java:S1481A")Remove this unused "temp" local variable.(ç×Àïøÿÿÿÿ
+w
+java:S1488&"aImmediately return this expression instead of assigning it to the temporary variable "customers".(°ô†ä
+~
+java:S1488P"cImmediately return this expression instead of assigning it to the temporary variable "theCustomer".(š´Á¦ıÿÿÿÿ

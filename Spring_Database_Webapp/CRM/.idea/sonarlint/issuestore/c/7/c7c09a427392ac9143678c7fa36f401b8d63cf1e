@@ -1,0 +1,7 @@
+
+[
+java:S46844"@Replace this persistent entity with a simple POJO or DTO object.(ğŠ›Îÿÿÿÿÿ
+_
+java:S1128"DRemove this unused import 'com.luv2code.springdemo.dao.CustomerDAO'.(‡ôÈ´şÿÿÿÿ
+i
+java:S1192/"NDefine a constant instead of duplicating this literal "customer-form" 3 times.(ÙÀÃîÿÿÿÿÿ

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuickStartMaven/QuickStartMaven.iml" filepath="$PROJECT_DIR$/QuickStartMaven/QuickStartMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring_Maven.iml" filepath="$PROJECT_DIR$/.idea/Spring_Maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenproject/mavenproject.iml" filepath="$PROJECT_DIR$/mavenproject/mavenproject.iml" />
+    </modules>
+  </component>
+</project>

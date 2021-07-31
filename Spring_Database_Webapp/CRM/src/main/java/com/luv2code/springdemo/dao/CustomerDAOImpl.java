@@ -49,11 +49,11 @@ public class CustomerDAOImpl implements CustomerDAO {
 //		currentSession.createQuery("from Customer c where c.firstName="+ theCustomer.getFirstName()).executeUpdate();
 
 		Query<Customer> query =
-				currentSession.createQuery("select c from Customer c " +
+				currentSession.createQuery("select c from Customer c "+
 								"where c.firstName =:theCustomerFirstName and " +
-								"c.lastName=:theCustomerLastName and " +
+								"c.lastName =:theCustomerLastName and " +
 								"c.email=:theCustomerEmail",
-						        Customer.class);
+						         Customer.class);
 
 		// set parameter on query
 		query.setParameter("theCustomerFirstName", theCustomer.getFirstName());

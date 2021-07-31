@@ -50,7 +50,6 @@ public class UpdateStudentDemo {
 						
 			// commit the transaction
 			session.getTransaction().commit();
-
 			
 			System.out.println("Done!");
 		}

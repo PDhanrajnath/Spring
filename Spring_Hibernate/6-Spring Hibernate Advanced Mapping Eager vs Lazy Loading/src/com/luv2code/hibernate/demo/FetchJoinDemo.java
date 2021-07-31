@@ -66,7 +66,6 @@ public class FetchJoinDemo {
 			
 			// add clean up code
 			session.close();
-			
 			factory.close();
 		}
 	}

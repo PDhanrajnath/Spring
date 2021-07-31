@@ -13,9 +13,9 @@ d
 4src/com/spring/hibernate/demo/CreateStudentDemo.java,7/9/7909fa13ab2b0449815ab6dd510cea60294a4a4d
 H
 src/hibernate.config.xml,5/f/5f7d0a907734bb7fb238673b809aabf2bb3c92de
-d
-4src/com/spring/hibernate/demo/DeleteStudentDemo.java,6/c/6c9d27aedbc4e72e4a2cf16744c477a056f896b9
 b
 2src/com/spring/hibernate/demo/ReadStudentDemo.java,2/f/2f147400e397eab4bb865a9c7e5b55e7963d584a
+d
+4src/com/spring/hibernate/demo/DeleteStudentDemo.java,6/c/6c9d27aedbc4e72e4a2cf16744c477a056f896b9
 d
 4src/com/spring/hibernate/demo/UpdateStudentDemo.java,4/4/44f6ead4ecb7b4408b71c278d40fb92aad768352

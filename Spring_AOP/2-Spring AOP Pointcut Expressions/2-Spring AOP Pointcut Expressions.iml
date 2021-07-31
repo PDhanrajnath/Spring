@@ -7,5 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="antlr-2.7.7" level="application" />
+    <orderEntry type="library" name="aop" level="application" />
+    <orderEntry type="library" name="lombok" level="application" />
+    <orderEntry type="library" name="mvc" level="application" />
   </component>
 </module>

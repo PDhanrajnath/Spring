@@ -1,9 +1,12 @@
 package com.springmvc.form.validations;
 
 
+import lombok.Data;
+
 
 import javax.validation.constraints.*;
 
+@Data
 public class Customer {
 
 	private String firstName;
@@ -20,38 +23,6 @@ public class Customer {
 	@NotNull(message = "This field is required")
 	@Pattern(regexp = "^[a-zA-Z0-9]{6}",message = "only 5 digit/character value")
 	private String postalCode;
-	public String getFirstName() {
-		return firstName;
-	}
-
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-	public String getLastName() {
-		return lastName;
-	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
-	public Integer getFreePasses() {
-		return freePasses;
-	}
-
-	public void setFreePasses(Integer freePasses) {
-		this.freePasses = freePasses;
-	}
-
-	public String getPostalCode() {
-		return postalCode;
-	}
-
-	public void setPostalCode(String postalCode) {
-		this.postalCode = postalCode;
-	}
-
 }
 
 

@@ -30,9 +30,9 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 
 		http.authorizeRequests()
 				.anyRequest().authenticated()
-			.and()
+				.and()
 				//customizing the form login page...
-			.formLogin()
+				.formLogin()
 				// .loginPage --> will redirect ot controller class and matches the mapping
 				.loginPage("/showMyLoginPage")
 				// .authenticationTheUser --> login processing URL will be handled

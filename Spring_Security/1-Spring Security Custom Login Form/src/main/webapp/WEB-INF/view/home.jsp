@@ -8,7 +8,7 @@
 	<h2>luv2code Company Home Page</h2>
 	<hr>
 	
-	Welcome to the luv2code company home page!
+	<marquee><h3>Welcome to the luv2code company home page!</h3></marquee>
 
 </body>
 

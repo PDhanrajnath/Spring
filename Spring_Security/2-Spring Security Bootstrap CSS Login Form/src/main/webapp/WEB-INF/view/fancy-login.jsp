@@ -1,7 +1,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33,7 +33,7 @@
 					<div class="panel-title">Sign In</div>
 				</div>
 
-				<div style="padding-top: 30px" class="panel-body">
+				<div data-toggle="tooltip" title="Sign In here!" style="padding-top: 30px" class="panel-body">
 
 					<!-- Login Form -->
 					<form:form action="${pageContext.request.contextPath}/authenticateTheUser" 
@@ -67,21 +67,21 @@
 						<!-- User name -->
 						<div style="margin-bottom: 25px" class="input-group">
 							<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span> 
-							
-							<input type="text" name="username" placeholder="username" class="form-control">
+
+							<input data-toggle="tooltip" title="Enter username here!" type="text" name="username" placeholder="username" class="form-control">
 						</div>
 
 						<!-- Password -->
 						<div style="margin-bottom: 25px" class="input-group">
 							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span> 
 							
-							<input type="password" name="password" placeholder="password" class="form-control" >
+							<input data-toggle="tooltip" title="Enter password here!" type="password" name="password" placeholder="password" class="form-control" >
 						</div>
 
 						<!-- Login/Submit Button -->
 						<div style="margin-top: 10px" class="form-group">						
 							<div class="col-sm-6 controls">
-								<button type="submit" class="btn btn-success">Login</button>
+								<button data-toggle="tooltip" title="Click to Login" type="submit" class="btn btn-success">Login</button>
 							</div>
 						</div>
 

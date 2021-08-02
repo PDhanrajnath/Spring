@@ -9,7 +9,7 @@ import com.luv2code.springdemo.dao.CustomerDAO;
 import com.luv2code.springdemo.entity.Customer;
 
 //intermediate layer for custom business logic
-//service layer b/w customercontroller class and customerDAO
+//service layer b/w customer controller class and customerDAO
 @Service
 //@Transactional will automatically begin & end transaction for hibernate code/query
 @Transactional

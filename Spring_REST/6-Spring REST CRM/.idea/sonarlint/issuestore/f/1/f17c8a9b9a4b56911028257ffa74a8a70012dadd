@@ -1,0 +1,16 @@
+
+J
+java:S3740["/Provide the parametrized type for this generic.(Ï¯µãýÿÿÿÿ
+Q	java:S125/"<This block of commented-out lines of code should be removed.(ž¹Ü 
+V	java:S1256"<This block of commented-out lines of code should be removed.(ÒŸ­´ÿÿÿÿÿ
+V	java:S125D"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+J
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶
+R
+java:S1128"<Remove this unused import 'com.mchange.v2.log.FallbackMLog'.(½šû®
+E
+java:S1068"*Remove this unused "logger" private field.(ø¢Á®øÿÿÿÿ
+w
+java:S1488$"aImmediately return this expression instead of assigning it to the temporary variable "customers".(°ô†ä
+~
+java:S1488O"cImmediately return this expression instead of assigning it to the temporary variable "theCustomer".(š´Á¦ýÿÿÿÿ

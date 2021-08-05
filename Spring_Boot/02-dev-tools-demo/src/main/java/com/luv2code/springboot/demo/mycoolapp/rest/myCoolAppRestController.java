@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @RestController
 public class myCoolAppRestController {
 
+    //value from properties file!
     @Value("${coach.name}")
     private String coachName;
 

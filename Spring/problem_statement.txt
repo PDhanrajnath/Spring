@@ -1,4 +1,5 @@
 Customers come to a restaurant and order dishes for lunch. Pay the bill and go home. create an app for a restaurant where
+
 1. Waiter can see orders to be served to customers,
 2. Manager should be able to generate the bill of a particular customer.
 3. Restaurant owner can see all the amount he made  in that particular date range(month, or by day or by week).  

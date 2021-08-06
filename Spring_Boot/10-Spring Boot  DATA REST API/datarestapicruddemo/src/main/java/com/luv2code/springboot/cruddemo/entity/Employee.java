@@ -10,7 +10,6 @@ import javax.persistence.*;
 public class Employee {
 
     // define fields
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
@@ -27,9 +26,7 @@ public class Employee {
 
 
     // define constructors
-
     public Employee() {
-
     }
 
     public Employee(String firstName, String lastName, String email) {

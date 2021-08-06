@@ -1,4 +1,4 @@
-package com.luv2code.springboot.demo.mycoolapp.rest;
+package com.luv2code.springboot.demo.mycoolapp.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -37,7 +37,7 @@ public class myCoolAppRestController {
     //expose a new endpoint for custom properties file
     @GetMapping("/teaminfo")
     public String getTeamInfo(){
-        return "Coach name: "+coachName+"\nSport: "+sport;
+        return "Coach name: "+coachName+"  Sport: "+sport;
     }
 
 }

@@ -21,7 +21,7 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO{
         entityManager=theEntityManager;
     }
 
-    @Override
+
     @Transactional
     public List<Employee> findAll() {
 
@@ -38,7 +38,7 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO{
         return employees;
     }
 
-    @Override
+
     public Employee findById(int theId) {
 
         // get the current hibernate session
@@ -53,7 +53,6 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO{
     }
 
 
-    @Override
     public void save(Employee theEmployee) {
 
         // get the current hibernate session
@@ -64,7 +63,6 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO{
     }
 
 
-    @Override
     public void deleteById(int theId) {
 
         // get the current hibernate session
